@@ -1,4 +1,4 @@
-package com.ewan.str;
+package com.ewan.str.sort;
 
 /**
  * Desc：变位词
