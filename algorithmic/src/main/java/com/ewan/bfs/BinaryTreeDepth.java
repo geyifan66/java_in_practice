@@ -12,7 +12,7 @@ public class BinaryTreeDepth {
 
     public int maxDepth(TreeNode root) {
         if (root == null) return 0;
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(root);
 
         int deepth = 0;
@@ -42,4 +42,7 @@ public class BinaryTreeDepth {
     }
 
 
+    public static void main(String[] args) {
+
+    }
 }
