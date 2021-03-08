@@ -31,7 +31,7 @@ public class BinaryTreeDepth {
         return deepth;
     }
 
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
